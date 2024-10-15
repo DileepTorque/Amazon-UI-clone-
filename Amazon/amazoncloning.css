@@ -1,0 +1,273 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* border: 2px solid red; */
+
+}
+.navbar{
+    background-color: black;
+    color: aliceblue;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#prime-video{
+    width: 96px;
+    height: 19px;
+    position: relative;
+    left: 150px;
+   
+}
+.logo{
+    width: 200px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    position: relative;
+    left: 400px;
+    /* flex-direction: row-reverse; */
+}
+/* ul li{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+} */
+.nav-items{
+    width: 987px;
+    justify-content: space-evenly;
+    align-self: center;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.in-sideitems{
+    /* width: 100%; */
+}
+.nav-outer{
+    width: 226px;
+    padding-right: 752px;
+}
+.background-image1{
+    background-image: linear-gradient(to right, #000 40%, transparent 58%),url(https://m.media-amazon.com/images/G/31/AmazonVideo/2019/MLP.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+
+   
+}
+.welcome-prime{
+    font-size: 2.5rem;
+    line-height: 2.8rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    width: 459.1px;
+    height: 50px;
+    display: flex;
+    font: Amazon Ember;
+    font-size: 35px;
+
+}
+p{
+    width: 572px;
+    height: 51px;
+    font-size: 20.8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    position: relative;
+    top: 60px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+.second-text{
+    flex-wrap: wrap;
+}
+.background-image1{
+    flex-wrap: wrap;
+    display: flex;
+    /* position: ;
+    left: 30px;
+    top: 30px; */
+
+}
+.matter{
+    /* border: 5px blue solid; */
+    position: relative;
+    top: 40px;
+    left: 40px;
+}
+.button-frstui{
+    position: relative;
+    top: 100px;
+    background-color: rgb(15,121,175);
+    display: inline;
+    border: none;
+    border-radius: 5px;
+    width: 280px;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    height: 50px;
+}
+.background-image2{
+    background-image: linear-gradient(to right, #000 40%, transparent 58%),url(https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/TVOD/TVOD_MLP_Right.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    /* display: inline-block; */
+
+   
+}
+.welcome-prime2{
+    font-size: 2.5rem;
+    line-height: 2.8rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    /* display: flex; */
+    width: 459.1px;
+    height: 50px;
+    font-size: 32px;
+
+}
+p{
+    width: 572px;
+    height: 51px;
+    font-size: 20.8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 60px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+#below-text{
+    color: #000;
+}
+.second-text2{
+    flex-wrap: wrap;
+}
+.background-image2{
+    flex-wrap: wrap;
+   
+    /* position: ;
+    left: 30px;
+    top: 30px; */
+
+}
+.matter2{
+    /* border: 5px blue solid; */
+    position: relative;
+    top: 40px;
+    left: 40px;
+}
+.button-frstui2{
+    position: relative;
+    top: 100px;
+    background-color: rgb(15,121,175);
+    display: inline;
+    border: none;
+    border-radius: 5px;
+    width: 280px;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    height: 50px;
+}
+.last-section{
+    display: flex;
+    width: 100%;
+    height: 800px;
+    padding-top: 18px;
+}
+.last-text{
+    width: 50%;
+    height: 500px;
+    display: inline;
+    margin: 50px 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.images{
+    width: 840px;
+    height:730px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: space-around;
+    flex-direction: column;
+    /* border: 5px solid blue; */
+}
+img[alt="black"]:hover{
+    transform: scale(1.03,1.03);
+    box-shadow: 1px 1px 1px 1px black;
+    /* border-radius: 8px; */
+
+    /* from{ transform: scale(1.1,1.2);} */
+
+}
+img{
+    width: 230px;
+    height: 170.6px;
+    transition-duration: 10ms;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    /* border-radius: 10px; */
+}
+h1{
+    width: 70%;
+
+}
+.footer{
+    background-color: rgb(34,34,34);
+    width: 100%;
+    height: 156px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+    flex-wrap: wrap;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+img[alt="footer-img"]{
+    height: 32px;
+    width: 109px;
+    position: relative;
+    /* left: 400px; */
+
+}
+#img-footer-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center;
+    position: relative;
+    /* top: 30px; */
+    padding: 24px;
+}
+#links{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 800;
+    width: 500px;
+    padding-left: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#copyrights{
+    color: #8197a4;
+    position: relative;
+    left: 600px;
+
+
+}
